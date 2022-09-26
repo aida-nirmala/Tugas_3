@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">tugas3_praktikum</string>
+    <string name="fopa">Forgot Password</string>
+    <string name="please">Please enter your email below to receive your password reset instructions</string>
+    <string name="username">Username</string>
+    <string name="enyuname">Enter your username</string>
+    <string name="send">Send Request</string>
+
+    <string name="repa">Reset Password</string>
+    <string name="recopa">Reset code was sent to your email. Please enter the code and create new password</string>
+    <string name="reco">Reset code</string>
+    <string name="enyonum">Enter your number</string>
+    <string name="nepa">New password</string>
+    <string name="enyopass">Enter your password</string>
+    <string name="send">Send Request</string>
+    <string name="copa">Confirm password</string>
+    <string name="enyocopass">Enter your confirm password</string>
+    <string name="changep">Change password</string>
+
+    <string name="wb">Welcome back</string>
+    <string name="sitocon">Sign in to continue</string>
+    <string name="suname">Username</string>
+    <string name="changep">Change password</string>
+    <string name="pass">Password</string>
+    <string name="login">Log in</string>
+
+    <string name="sukses">Succesful!</string>
+    <string name="ketsuk">You have succesfully change password. Please user your new password when logging in.</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgot_pass"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@color/white"
+    >
+
+    <ImageButton
+        android:id="@+id/ibfp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:scaleType="fitStart"
+        android:textColor="@color/black"
+        android:src="@drawable/left_arrow"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/fp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fopa"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textSize="16pt"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="6pt"
+        />
+    <TextView
+        android:id="@+id/fp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/please"
+        android:textSize="8pt"
+        android:layout_marginBottom="25pt"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_light"
+        />
+
+
+    <TextView
+        android:id="@+id/fp3"
+        android:labelFor="@id/edfp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="10pt"
+        android:layout_marginBottom="5pt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_semi_bold"
+        />
+    <EditText
+        android:id="@+id/edfp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enyuname"
+        android:textSize="8pt"
+        android:layout_marginBottom="10pt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_light"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/fpbutton8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:layout_marginTop="15pt"
+        android:text="@string/send"
+        android:textAllCaps="false"
+        android:fontFamily="@font/montserrat_light"
+        />
+</LinearLayout>
